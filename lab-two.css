@@ -1,0 +1,112 @@
+header {
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5px;
+    width: 100%;
+  }
+  footer{
+    background-color: black;
+    color: white;
+    justify-content: center;
+    display: flex;
+    padding: 0px;
+    height: 50px;
+    width: 100%;
+    margin-top: 60px;
+  }
+ h1{
+    margin-left: 40px;
+ }
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+
+  nav ul li {
+    margin-left: 20px;
+    margin-right: 10px;
+  }
+
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+
+  }
+
+  .caption {
+    font-style: italic;
+    margin-top: 10px;
+  }
+
+  img {
+    height: 400px;
+    width: 600px;
+    display: block; /* Make the image a block element for centering */
+    margin: 0 auto; /* Center the image */
+  }
+
+#mart{
+    
+    margin-left: auto;
+    margin-right: auto;
+    height: 400px;
+    width: 600px;
+    position: relative;
+}
+#martin{
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    position: relative;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+
+  }
+  #web{
+    height: 400px;
+    width: 600px;
+  }
+  #graphic{
+    height: 400px;
+    width: 600px;
+  }
+  
+  .item {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid rgb(182, 178, 178);
+    box-sizing: border-box;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center; /* Center align items horizontally */
+  }
+  
+  .item:not(:last-child) {
+    margin-right: px; /* Adjust the space between the items */
+  }
+  
+  .item img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .item p {
+    margin-top: 0; /* Remove default margin for paragraphs */
+  }
+  #shil{
+    text-align: center; 
+ }
+  p{
+    text-align: center;
+  }
